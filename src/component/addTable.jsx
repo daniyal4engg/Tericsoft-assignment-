@@ -32,7 +32,7 @@ export function BasicModal() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:8080/task", formData).then(() => {
+    axios.post("https://tericsoft.herokuapp.com/task", formData).then(() => {
       alert("Entry added succussfully");
       console.log("ads", formData.hobbies);
       setFormData({

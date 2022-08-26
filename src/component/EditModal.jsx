@@ -44,7 +44,7 @@ export default function EditModal({ prop }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:8080/task/${prop}`, { ...formData })
+      .put(`https://tericsoft.herokuapp.com/task/${prop}`, { ...formData })
       .then(() => {
         alert("Entry update succussfully");
 

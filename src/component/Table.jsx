@@ -24,7 +24,7 @@ export default function BasicTable() {
 
   const getData = () => {
     axios
-      .get("http://localhost:8080/task")
+      .get("https://tericsoft.herokuapp.com/task")
       .then((res) => setData(res.data))
       .then((err) => console.log(err));
   };
@@ -32,7 +32,7 @@ export default function BasicTable() {
   var newList;
   const deleteButton = (id) => {
     // console.log(_id);
-    axios.delete(`http://localhost:8080/task/${id}`).then(() => {
+    axios.delete(`https://tericsoft.herokuapp.com/task/${id}`).then(() => {
       newList = data.filter((el) => el.id !== id);
       setData(newList);
     });
