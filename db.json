@@ -1,0 +1,22 @@
+{
+  "task": [
+    {
+      "name": "Daniyal Aafaq Anjum Shaikh",
+      "email": "daniyalshaikhnov13@gmail.com",
+      "phone": "08446588908",
+      "dob": "2022-08-17",
+      "gender": "male",
+      "hobbies": "DebugCode",
+      "id": 24
+    },
+    {
+      "name": "Daniyal Aafaq Anjum Shaikh",
+      "email": "daniyalshaikhnov13@gmail.com",
+      "phone": "08446588908",
+      "dob": "",
+      "gender": "female",
+      "hobbies": "",
+      "id": 25
+    }
+  ]
+}
